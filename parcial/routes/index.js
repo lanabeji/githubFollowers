@@ -46,7 +46,9 @@ router.get("/getFollowers/:user", function (req,res,next) {
 
         username: req.params.user
     }, function(err, data) {
-        guardarFollowers(data);
+        if(data!= undefined){
+            guardarFollowers(data);
+        }
         console.log("Estoy en index.js en getFollowersUser");
         console.log(data);
         res.json(data);
