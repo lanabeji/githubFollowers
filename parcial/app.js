@@ -4,11 +4,18 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var MongoClient = require('mongodb').MongoClient;
 
 var index = require('./routes/index');
-var users = require('./routes/users');
 
 var app = express();
+
+MongoClient.connect("mongodb://lanabeji:uWCI4oYSRS3duSy5@cluster0-shard-00-00-fwq0s.mongodb.net:27017,cluster0-shard-00-01-fwq0s.mongodb.net:27017,cluster0-shard-00-02-fwq0s.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin", function (err, db) {
+    if (!err) {
+        console.log("We are connected");
+    }
+});
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,7 +30,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'front/build')));
 
 app.use('/', index);
-app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

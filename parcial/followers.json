@@ -1,0 +1,52 @@
+{"data":
+[
+  {
+    "login":"ayman",
+    "id":1846,
+    "avatar_url":"https://avatars2.githubusercontent.com/u/1846?v=4",
+    "gravatar_id":"",
+    "url":"https://api.github.com/users/ayman",
+    "html_url":"https://github.com/ayman",
+    "followers_url":"https://api.github.com/users/ayman/followers",
+    "following_url":"https://api.github.com/users/ayman/following{/other_user}",
+    "gists_url":"https://api.github.com/users/ayman/gists{/gist_id}",
+    "starred_url":"https://api.github.com/users/ayman/starred{/owner}{/repo}",
+    "subscriptions_url":"https://api.github.com/users/ayman/subscriptions",
+    "organizations_url":"https://api.github.com/users/ayman/orgs",
+    "repos_url":"https://api.github.com/users/ayman/repos",
+    "events_url":"https://api.github.com/users/ayman/events{/privacy}",
+    "received_events_url":"https://api.github.com/users/ayman/received_events",
+    "type":"User",
+    "site_admin":false
+  },
+  {
+    "login":"finiterank",
+    "id":2453052,
+    "avatar_url":"https://avatars3.githubusercontent.com/u/2453052?v=4",
+    "gravatar_id":"",
+    "url":"https://api.github.com/users/finiterank",
+    "html_url":"https://github.com/finiterank",
+    "followers_url":"https://api.github.com/users/finiterank/followers",
+    "following_url":"https://api.github.com/users/finiterank/following{/other_user}",
+    "gists_url":"https://api.github.com/users/finiterank/gists{/gist_id}",
+    "starred_url":"https://api.github.com/users/finiterank/starred{/owner}{/repo}",
+    "subscriptions_url":"https://api.github.com/users/finiterank/subscriptions",
+    "organizations_url":"https://api.github.com/users/finiterank/orgs",
+    "repos_url":"https://api.github.com/users/finiterank/repos",
+    "events_url":"https://api.github.com/users/finiterank/events{/privacy}",
+    "received_events_url":"https://api.github.com/users/finiterank/received_events",
+    "type":"User",
+    "site_admin":false
+  }
+],
+  "meta":
+  {
+    "x-ratelimit-limit":"60",
+    "x-ratelimit-remaining":"58",
+    "x-ratelimit-reset":"1506043403",
+    "x-github-request-id":"22CE:1D102:284DCF:5ECEC0:59C4592A",
+    "x-github-media-type":"github.v3; format=json",
+    "etag":"\"f3c8c85e77a4f2f519179ed86e9a20df\"",
+    "status":"200 OK"
+  }
+}
