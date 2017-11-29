@@ -21,7 +21,7 @@ Usa mongo para escribir en la base de datos cada vez que se buscan las personas 
 ![My image](https://github.com/lnbello10/githubFollowers/blob/master/mongo%20atlas.png)
 
 
-/getAllFollowers Todos los seguidores de los usuarios que se han buscado hasta el momento. Leer de mongo
+/getAllFollowers Todos los personas que siguen los usuarios que se han buscado hasta el momento. Leer de mongo
 
-/getFollowers/:user Da los seguidores del usuario y los guarda en mongo.
+/getFollowers/:user Busca las personas a la que sigue un usuario y los guarda en mongo.
 
