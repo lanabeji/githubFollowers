@@ -18,7 +18,7 @@ Esto se hizo con el fin de ver a que personas sigue alguien sin tener que entrar
 Adición creativa:
 Usa mongo para escribir en la base de datos cada vez que se buscan las personas que sigue de un usuario y tambien para encontrar todos los seguidores de los usuarios que se han buscado. Esta base de datos es especial porque se encuentra en mongo atlas y permite monitorear las consultas o escrituras (conexiones) que se hacen a la base de datos, tal como se muestra a continuación:
 
-![My image](https://github.com/lnbello10/githubFollowers/blob/master/mongo atlas.jpg)
+![My image](https://github.com/lnbello10/githubFollowers/blob/master/mongo%20atlas.png)
 
 
 /getAllFollowers Todos los seguidores de los usuarios que se han buscado hasta el momento. Leer de mongo
